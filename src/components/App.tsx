@@ -68,7 +68,7 @@ export const App: FC = () => {
             color: ${theme.colors.white};
             font-family: ${theme.fonts.body};
             position: relative;
-            padding: ${extraPadding}px;
+            padding: ${extraPadding || 0}px;
           }
         `}
       />
